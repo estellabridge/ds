@@ -1,9 +1,4 @@
-#include <iostream>
 #include "StringNode.h"
-#include <string>
-
-using namespace std;
-
 class StringLinkedList {
 public:
     StringLinkedList();
@@ -15,3 +10,4 @@ public:
 private:
     StringNode* head;
 };
+
